@@ -15,4 +15,13 @@
   <servlet-name>hello</servlet-name>
   <url-pattern>/hello</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>genric</servlet-name>
+  <servlet-class>servlet.ServletByExtendingGenricServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>genric</servlet-name>
+  <url-pattern>/response</url-pattern>
+  </servlet-mapping>
 </web-app>
